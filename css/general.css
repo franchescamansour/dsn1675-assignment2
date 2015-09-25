@@ -115,7 +115,7 @@ footer ul{
   margin-left: -40px;
 }
 
-@media only screen and (min-width: 260px) {
+@media only screen and (min-width: 16em) {
 
   h1{
     font-size: 2.3rem;
@@ -129,8 +129,64 @@ footer ul{
     margin-left: 2.7em;
   }
 
-#nowplaying img{
+  #nowplaying img{
   margin-left: 3.5em;
 }
+
+}
+
+@media only screen and (min-width: 22em) {
+
+  h1{
+    font-size: 3rem;
+  }
+
+  header ul li{
+    display: inline;
+  }
+
+  #ancientworldbanner img{
+    width: 80%;
+  }
+
+  #ancientworldbanner h2{
+    text-align: center;
+    margin-right: 2em;
+  }
+
+  .sevenwonders ul img{
+    width: 100%;
+  }
+
+  #nowplaying img{
+    padding-left: 3em;
+  }
+
+}
+
+@media only screen and (min-width: 29em) {
+
+  h1{
+    font-size: 3.7em;
+  }
+
+  #ancientworldbanner img{
+    margin-left: 4.5em;
+  }
+
+  #ancientworldbanner h2{
+    font-size: 2rem;
+  }
+
+  #ancientworldbanner p{
+    font-size: 1.2rem;
+    font-family: verdana, sans-serif;
+    width: 60%;
+    margin-left: 7.2em;
+    margin-top: -1em;
+  }
+
+  .sevenwonders h2{}
+
 
 }
