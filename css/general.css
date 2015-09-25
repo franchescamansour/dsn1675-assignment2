@@ -243,3 +243,28 @@ footer ul{
   }
 
 }
+
+@media only screen and (min-width: 47em) {
+
+  h1{
+    margin-right: 2.7em;
+  }
+
+  .thisweek h2{
+    font-size: 2.5rem;
+    margin-left: 1em;
+  }
+
+  .thisweek h3{
+    font-size: 1.7rem;
+  }
+
+  .thisweek{
+    font-size: 1.3rem;
+  }
+
+  footer ul {
+    font-size: .8rem;
+  }
+
+}
