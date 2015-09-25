@@ -8,10 +8,67 @@ html{
   };
 
   background-color: beige;
+  font-family: Georgia, serif;
+}
+
+header img{
+  float: left;
 }
 
 h1{
-  font-family: 'The Girl Next Door', cursive;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  padding-right: 15px;
+  background-color: red;
+  float: right;
+}
+
+nav{
+  padding-top: 100px;
+  background-color: pink;
+}
+
+.navigation ul{
+  list-style: none;
+  font-size: 1.2rem;
+  text-align: center;
+  clear: both;
+}
+
+#ancientworldbanner h2{
+  font-family: 'Playfair Display', serif;
+  font-size: 1.3rem;
+  background-color: red;
+}
+
+#ancientworldbanner p{
+  text-align: center;
+}
+
+.sevenwonders h2{
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  margin-bottom: -30px;
+  text-align: center;
+}
+
+.sevenwonders ul{
+  list-style: none;
+}
+
+.sevenwonders img{
+  margin-top: 30px;
+}
+
+.buytickets h2{
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.buytickets ol{
+  list-style: none;
+  text-align: center;
 }
 
 
