@@ -1,3 +1,9 @@
+@-moz-viewport { width: device-width; scale: 1;}
+@-ms-viewport { width: device-width; scale: 1;}
+@-o-viewport { width: device-width; scale: 1;}
+@-webkit-viewport { width: device-width; scale: 1;}
+@viewport { width: device-width; scale: 1;}
+
 html{
   box-sizing: html {
     box-sizing: border-box;
@@ -109,3 +115,22 @@ footer ul{
   margin-left: -40px;
 }
 
+@media only screen and (min-width: 260px) {
+
+  h1{
+    font-size: 2.3rem;
+  }
+
+  #ancientworldbanner img{
+    margin-left: 3.5em;
+  }
+
+  #ancientworldbanner h2{
+    margin-left: 2.7em;
+  }
+
+#nowplaying img{
+  margin-left: 3.5em;
+}
+
+}
