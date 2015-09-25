@@ -19,26 +19,20 @@ h1{
   font-family: 'Playfair Display', serif;
   font-size: 1.8rem;
   padding-right: 15px;
-  background-color: red;
   float: right;
-}
-
-nav{
-  padding-top: 100px;
-  background-color: pink;
 }
 
 .navigation ul{
   list-style: none;
   font-size: 1.2rem;
   text-align: center;
+  margin-right: 30px;
   clear: both;
 }
 
 #ancientworldbanner h2{
   font-family: 'Playfair Display', serif;
   font-size: 1.3rem;
-  background-color: red;
 }
 
 #ancientworldbanner p{
@@ -49,6 +43,7 @@ nav{
   font-family: 'Playfair Display', serif;
   font-size: 2rem;
   margin-bottom: -30px;
+  padding-left: 30px;
   text-align: center;
 }
 
@@ -60,6 +55,11 @@ nav{
   margin-top: 30px;
 }
 
+.sevenwonders{
+  text-align: center;
+  margin-right: 30px;
+}
+
 .buytickets h2{
   font-family: 'Playfair Display', serif;
   font-size: 2rem;
@@ -69,6 +69,43 @@ nav{
 .buytickets ol{
   list-style: none;
   text-align: center;
+  margin-right: 30px;
 }
 
+#nowplaying h2{
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  text-align: center;
+}
+
+#nowplaying p{
+  text-align: center;
+}
+
+.thisweek h2{
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.thisweek ol{
+  list-style: none;
+}
+
+.thisweek h3{
+  font-family: 'Playfair Display', serif;
+  font-size: 1.3rem;
+  margin-bottom: -10px;
+}
+
+footer{
+  font-family: verdana, sans-serif;
+  text-align: left;
+}
+
+footer ul{
+  font-size: .7rem;
+  list-style: none;
+  margin-left: -40px;
+}
 
